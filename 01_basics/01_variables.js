@@ -5,10 +5,11 @@ accountCity = "Jaipur"
 let accountState;
 
 // accountId = 2 // not allowed
+// let accountEmail = "hc@hc.com"
 
 
 accountEmail = "hc@hc.com"
-accountPassword = "21212121"
+var accountPassword = "21212121"
 accountCity = "Bengaluru"
 
 console.log(accountId);
