@@ -29,3 +29,5 @@ console.log(typeof undefined); // undefined
 console.log(typeof null); // object
 console.log(typeof age); // number
 console.log(typeof Boolean); // function
+console.log(typeof BigInt); //function
+console.log(typeof Symbol); // function
