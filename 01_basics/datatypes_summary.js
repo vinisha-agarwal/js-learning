@@ -31,9 +31,30 @@ const myFunction = function(){
   console.log("Hello world");
 }
 
-console.log(typeof bigNumber); // bigint
-console.log(typeof BigInt); // function
-console.log(typeof id); //symbol
-console.log(typeof Symbol); // function
+// console.log(typeof bigNumber); // bigint
+// console.log(typeof BigInt); // function
+// console.log(typeof id); //symbol
+// console.log(typeof Symbol); // function
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// Stack(primitive)  Heap(Non Primitive)
+
+let firstname = "vinisha"
+let newname = "nikita"
+newname = firstname
+
+// console.log(firstname);
+// console.log(newname);
+
+let userOne = {
+  email : "one@gmail.com",
+  upiId : "we@ybl"
+}
+
+let userTwo = userOne
+userTwo.email = "two@gmail.com"
+userOne.email = "new@gmail.com"
+console.log(userOne);
+console.log(userTwo);
